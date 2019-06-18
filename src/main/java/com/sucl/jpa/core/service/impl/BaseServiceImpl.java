@@ -39,7 +39,7 @@ import java.util.function.Consumer;
  * @author sucl
  * @date 2019/4/1
  */
-public abstract class BaseServiceImpl<R extends Repository<T,Serializable>,T> implements BaseService<R,T> {
+public abstract class BaseServiceImpl<R extends Repository<T,? extends Serializable>,T> implements BaseService<R,T> {
 
     /**
      * 原始dao

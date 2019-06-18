@@ -51,3 +51,6 @@
             <version>2.9.8</version>
         </dependency>
     在MappingJackson2HttpMessageConverter中添加一个objectMapper HibernateAwareObjectMapper.    
+
+附加：
+ 定时任务quartz
